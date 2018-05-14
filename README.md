@@ -7,11 +7,16 @@
 
 - DepthwiseConvolution层的添加
 
+## 训练数据集
+  
+  VggFace2数据集，图像size：112X96
+
 ## LFW准确率
 
-![](https://github.com/zhanglaplace/MobileFaceNet/result.png)
+![](https://github.com/zhanglaplace/MobileFaceNet/blob/master/result.png)
 
-参考：
+## 参考：
+
 [mobilefacenet-caffe](https://github.com/KaleidoZhouYN/mobilefacenet-caffe)
 
 [AMSoftmax](https://github.com/happynear/AMSoftmax)
