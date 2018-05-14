@@ -1,0 +1,24 @@
+net: "MobileFaceNet.prototxt"
+#test_iter: 100 
+#test_interval: 500
+#test_iter: 10
+#test_interval: 500000
+#test_initialization: false
+
+base_lr: 0.1
+lr_policy: "multistep"
+gamma: 0.1
+
+stepvalue: 80000
+stepvalue: 120000
+stepvalue: 140000
+max_iter:  160000
+iter_size: 1
+
+display: 100
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 5000
+snapshot_prefix: "face_snapshot/MobileFaceNet_16w_0pt3_model"
+
+solver_mode: GPU
